@@ -7,7 +7,7 @@ This tool strips all of the complex CSS and HTML away and just displays the imag
 Usage:
 
 ```
-go run kid-epub-fix pug.epub
+go run main.go pug.epub
 ```
 
 This will output pub-fix.epub
