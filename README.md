@@ -17,6 +17,14 @@ go run main.go pug.epub
 
 This will output pub-fix.epub
 
+## Example Before/After
+
+Here is the first page of Diary of a Pug on koreader. Before the text is duplicated and reduces the size of the actual page. Afterwards the image is full paged.
+
+| Before | After | 
+|--|--|
+| ![](before.png) | ![](after.png) | 
+
 ## Tested Files
 
 I tested this on 7 epubs, listed below, all purchased from Kobo.com
