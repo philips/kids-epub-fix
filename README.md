@@ -1,6 +1,11 @@
 ## Kid epub Fix
 
-Many early reader kid books have pages that are single large image that has been hand drawn and lettered. The publishers then attempt to use a number of hacky CSS/HTML solutions in their epubs to overlay and then hide text on top. 
+Many early reader kid books have pages that are single large image that has been hand drawn and lettered. The publishers then attempt to use a number of hacky CSS/HTML solutions in their epubs to overlay and then hide text on top. This causes many issues:
+
+- Rendering issues on Webkit/Chrome readers like koreader due to complex CSS
+- Page numbers that are incorrect due to text overflowing on smaller devices
+- Empty and/or blank pages due to hidden text pushed around by resized images for larger/smaller devices
+- Text overflowing margins from fixed pixel spacing
 
 This tool strips all of the complex CSS and HTML away and just displays the images one per page.
 
