@@ -1,4 +1,4 @@
-## Kid epub Fix
+## Kids epub Fix
 
 Many early reader kid books have pages that are single large image that has been hand drawn and lettered. The publishers then attempt to use a number of hacky CSS/HTML solutions in their epubs to overlay and then hide text on top. This causes many issues:
 
